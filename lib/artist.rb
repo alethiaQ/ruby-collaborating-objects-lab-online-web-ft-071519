@@ -1,5 +1,6 @@
 class Artist
   attr_accessor :name
+<<<<<<< HEAD
   @@all = []
 
   def initialize(name)
@@ -34,3 +35,11 @@ class Artist
    end
 
 end
+=======
+
+  def initialize(name)
+    @name = name
+  end
+
+end 
+>>>>>>> e06b25a982ddbb4b387cf88467527eb3dd317d7a
